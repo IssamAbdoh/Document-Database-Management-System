@@ -1,0 +1,337 @@
+2022-07-01 07:57:35,337 INFO org.springframework.boot.StartupInfoLogger [main] Starting MasterApplication v0.0.1-SNAPSHOT using Java 1.8.0_212 on 51c5a5ab5e55 with PID 1 (/usr/src/myapp/master/target/master-0.0.1-SNAPSHOT.jar started by root in /usr/src/myapp/master)
+2022-07-01 07:57:35,559 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-01 07:58:00,937 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=734b259d-e510-3db1-9d99-c261f810b4bf
+2022-07-01 07:58:06,254 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 2726 (http)
+2022-07-01 07:58:06,534 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-2726"]
+2022-07-01 07:58:06,560 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-07-01 07:58:06,573 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-07-01 07:58:07,646 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-07-01 07:58:07,649 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 30002 ms
+2022-07-01 07:58:08,552 INFO master.sharedpackages.logging.LoggingService [main] 1656662288552 main Master Node Created
+2022-07-01 07:58:30,782 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-07-01 07:58:34,039 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-07-01 07:58:34,543 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-07-01 07:58:36,226 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-07-01 07:58:36,381 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-07-01 07:58:37,135 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-07-01 07:58:37,138 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-07-01 07:58:37,153 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-07-01 07:58:37,157 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-07-01 07:58:37,165 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-07-01 07:58:37,168 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-07-01 07:58:37,197 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-07-01 07:58:47,365 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-07-01 07:58:47,382 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-07-01 07:58:47,407 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-01 07:58:47,431 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1656662327428 with initial instances count: 0
+2022-07-01 07:58:47,436 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MASTER with eureka with status UP
+2022-07-01 07:58:47,445 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1656662327444, current=UP, previous=STARTING]
+2022-07-01 07:58:47,452 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-2726"]
+2022-07-01 07:58:47,460 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MASTER/51c5a5ab5e55:master:2726: registering service...
+2022-07-01 07:58:47,693 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 2726 (http) with context path ''
+2022-07-01 07:58:47,700 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 2726
+2022-07-01 07:58:48,913 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MASTER/51c5a5ab5e55:master:2726 - registration status: 204
+2022-07-01 07:58:50,423 INFO org.springframework.boot.StartupInfoLogger [main] Started MasterApplication in 90.773 seconds (JVM running for 98.768)
+2022-07-01 07:59:17,387 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2022-07-01 07:59:17,390 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2022-07-01 07:59:17,392 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2022-07-01 07:59:17,396 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2022-07-01 07:59:17,398 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2022-07-01 07:59:17,400 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2022-07-01 07:59:17,401 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2022-07-01 07:59:17,492 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2022-07-01 08:03:37,259 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:08:37,262 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:13:37,279 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:18:37,281 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:23:37,285 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:28:37,290 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:33:37,294 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:38:37,296 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:43:37,299 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:48:37,301 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:53:37,313 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:58:37,314 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 09:03:37,317 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 09:05:18,860 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application MASTER with eureka with status DOWN
+2022-07-01 09:05:18,863 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1656666318863, current=DOWN, previous=UP]
+2022-07-01 09:05:18,866 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MASTER/51c5a5ab5e55:master:2726: registering service...
+2022-07-01 09:05:19,060 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MASTER/51c5a5ab5e55:master:2726 - registration status: 204
+2022-07-01 09:05:19,733 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-07-01 09:05:22,773 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-07-01 09:05:23,086 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_MASTER/51c5a5ab5e55:master:2726 - deregister  status: 200
+2022-07-01 09:05:23,122 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-07-01 16:31:24,854 INFO org.springframework.boot.StartupInfoLogger [main] Starting MasterApplication v0.0.1-SNAPSHOT using Java 1.8.0_212 on 4eedac494533 with PID 1 (/usr/src/myapp/master/target/master-0.0.1-SNAPSHOT.jar started by root in /usr/src/myapp/master)
+2022-07-01 16:31:24,935 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-01 16:32:11,212 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=734b259d-e510-3db1-9d99-c261f810b4bf
+2022-07-01 16:32:17,053 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 2726 (http)
+2022-07-01 16:32:17,375 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-2726"]
+2022-07-01 16:32:17,408 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-07-01 16:32:17,420 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-07-01 16:32:19,435 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-07-01 16:32:19,444 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 51979 ms
+2022-07-01 16:32:22,064 INFO master.sharedpackages.logging.LoggingService [main] 1656693142064 main Master Node Created
+2022-07-01 16:32:42,835 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-07-01 16:32:44,851 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-07-01 16:32:45,819 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-07-01 16:32:48,410 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-07-01 16:32:48,781 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-07-01 16:32:49,492 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-07-01 16:32:49,507 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-07-01 16:32:49,511 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-07-01 16:32:49,516 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-07-01 16:32:49,518 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-07-01 16:32:49,526 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-07-01 16:32:49,530 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-07-01 16:33:03,934 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-07-01 16:33:03,967 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-07-01 16:33:04,005 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-01 16:33:04,055 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1656693184042 with initial instances count: 0
+2022-07-01 16:33:04,070 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MASTER with eureka with status UP
+2022-07-01 16:33:04,074 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1656693184074, current=UP, previous=STARTING]
+2022-07-01 16:33:04,093 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-2726"]
+2022-07-01 16:33:04,108 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MASTER/4eedac494533:master:2726: registering service...
+2022-07-01 16:33:04,333 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 2726 (http) with context path ''
+2022-07-01 16:33:04,349 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 2726
+2022-07-01 16:33:06,952 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MASTER/4eedac494533:master:2726 - registration status: 204
+2022-07-01 16:33:09,335 INFO org.springframework.boot.StartupInfoLogger [main] Started MasterApplication in 125.317 seconds (JVM running for 134.152)
+2022-07-01 16:33:33,965 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2022-07-01 16:33:33,966 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2022-07-01 16:33:33,967 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2022-07-01 16:33:33,968 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2022-07-01 16:33:33,969 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2022-07-01 16:33:33,970 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2022-07-01 16:33:33,971 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2022-07-01 16:33:34,012 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2022-07-01 16:37:49,566 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 16:42:49,568 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 16:47:49,571 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 16:52:49,575 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 16:57:49,582 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 17:02:49,584 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 17:07:49,586 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 17:12:49,589 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 17:17:49,592 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 17:22:49,595 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 17:27:49,598 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 17:32:49,600 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 17:37:49,603 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 17:42:49,604 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 17:47:49,606 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 17:52:49,608 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 17:57:49,611 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 18:02:49,612 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 18:07:49,615 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 18:12:49,618 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 18:17:49,620 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 18:22:49,622 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 18:27:49,626 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 18:32:49,627 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 18:37:49,628 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 18:42:49,631 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 18:47:49,633 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 18:52:49,636 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 18:57:49,639 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 19:02:49,641 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 19:07:49,643 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 19:12:23,084 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application MASTER with eureka with status DOWN
+2022-07-01 19:12:23,088 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1656702743088, current=DOWN, previous=UP]
+2022-07-01 19:12:23,090 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MASTER/4eedac494533:master:2726: registering service...
+2022-07-01 19:12:23,122 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MASTER/4eedac494533:master:2726 - registration status: 204
+2022-07-01 19:12:23,167 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-07-01 19:12:26,176 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-07-01 19:12:26,199 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_MASTER/4eedac494533:master:2726 - deregister  status: 200
+2022-07-01 19:12:26,221 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-07-01 19:34:20,740 INFO org.springframework.boot.StartupInfoLogger [main] Starting MasterApplication v0.0.1-SNAPSHOT using Java 1.8.0_212 on 9406edc00f68 with PID 1 (/usr/src/myapp/master/target/master-0.0.1-SNAPSHOT.jar started by root in /usr/src/myapp/master)
+2022-07-01 19:34:20,909 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-01 19:34:44,185 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=734b259d-e510-3db1-9d99-c261f810b4bf
+2022-07-01 19:34:50,381 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 2726 (http)
+2022-07-01 19:34:50,478 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-2726"]
+2022-07-01 19:34:50,480 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-07-01 19:34:50,482 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-07-01 19:34:50,940 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-07-01 19:34:50,943 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 27582 ms
+2022-07-01 19:34:52,100 INFO master.sharedpackages.logging.LoggingService [main] 1656704092100 main Master Node Created
+2022-07-01 19:35:15,758 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-07-01 19:35:17,910 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-07-01 19:35:18,472 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-07-01 19:35:21,308 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-07-01 19:35:21,724 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-07-01 19:35:22,738 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-07-01 19:35:22,767 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-07-01 19:35:22,772 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-07-01 19:35:22,774 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-07-01 19:35:22,776 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-07-01 19:35:22,790 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-07-01 19:35:22,792 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-07-01 19:35:31,258 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-07-01 19:35:31,279 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-07-01 19:35:31,296 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-01 19:35:31,352 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1656704131350 with initial instances count: 0
+2022-07-01 19:35:31,358 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MASTER with eureka with status UP
+2022-07-01 19:35:31,368 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1656704131368, current=UP, previous=STARTING]
+2022-07-01 19:35:31,386 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-2726"]
+2022-07-01 19:35:31,407 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MASTER/9406edc00f68:master:2726: registering service...
+2022-07-01 19:35:31,656 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 2726 (http) with context path ''
+2022-07-01 19:35:31,672 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 2726
+2022-07-01 19:35:32,437 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MASTER/9406edc00f68:master:2726 - registration status: 204
+2022-07-01 19:35:34,126 INFO org.springframework.boot.StartupInfoLogger [main] Started MasterApplication in 87.811 seconds (JVM running for 107.436)
+2022-07-01 19:36:01,278 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2022-07-01 19:36:01,282 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2022-07-01 19:36:01,286 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2022-07-01 19:36:01,288 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2022-07-01 19:36:01,291 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2022-07-01 19:36:01,314 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2022-07-01 19:36:01,317 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2022-07-01 19:36:01,624 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2022-07-01 19:40:22,862 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 19:43:11,961 INFO org.apache.juli.logging.DirectJDKLog [http-nio-2726-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-01 19:43:11,963 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2726-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-01 19:43:11,971 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2726-exec-1] Completed initialization in 5 ms
+2022-07-01 19:43:50,914 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-5] 1656704630914 http-nio-2726-exec-5 sendPostRequest to http://host.docker.internal:1234/scale/addNewSlaveResponse Code : HttpResponseProxy{HTTP/1.1 200  [Content-Length: 0, Date: Fri, 01 Jul 2022 19:43:50 GMT, Keep-Alive: timeout=60, Connection: keep-alive] [Content-Length: 0,Chunked: false]}
+2022-07-01 19:43:55,914 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-7] 1656704635914 http-nio-2726-exec-7 sendPostRequest to http://host.docker.internal:1234/scale/addNewSlaveResponse Code : HttpResponseProxy{HTTP/1.1 200  [Content-Length: 0, Date: Fri, 01 Jul 2022 19:43:55 GMT, Keep-Alive: timeout=60, Connection: keep-alive] [Content-Length: 0,Chunked: false]}
+2022-07-01 19:45:22,873 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 19:46:55,777 WARN master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704815777 http-nio-2726-exec-9 Directory /usr/src/myapp/master/data/Databases already exists
+2022-07-01 19:46:55,791 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704815791 http-nio-2726-exec-9 Database hr_db created
+2022-07-01 19:46:55,824 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704815824 http-nio-2726-exec-9 File hr.json created
+2022-07-01 19:46:55,841 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704815841 http-nio-2726-exec-9 File hr.json created
+2022-07-01 19:46:55,848 WARN master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704815848 http-nio-2726-exec-9 File sequencing.json already exists
+2022-07-01 19:46:55,917 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704815917 http-nio-2726-exec-9 Document inserted !
+2022-07-01 19:46:55,923 WARN master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704815923 http-nio-2726-exec-9 File sequencing.json already exists
+2022-07-01 19:46:55,945 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704815945 http-nio-2726-exec-9 Sequencing updated !
+2022-07-01 19:46:57,655 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704817655 http-nio-2726-exec-9 propagate sending to http://2e54f8e946dc:2613/slave/updateData
+2022-07-01 19:46:59,384 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704819384 http-nio-2726-exec-9 sendfile to http://2e54f8e946dc:2613/slave/updateDataResponse Code : HttpResponseProxy{HTTP/1.1 200  [Content-Type: text/plain;charset=ISO-8859-1, Content-Length: 20, Date: Fri, 01 Jul 2022 19:46:59 GMT, Keep-Alive: timeout=60, Connection: keep-alive] ResponseEntityProxy{[Content-Type: text/plain;charset=ISO-8859-1,Content-Length: 20,Chunked: false]}}
+2022-07-01 19:46:59,386 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704819386 http-nio-2726-exec-9 propagate sending to http://7ba968137573:2614/slave/updateData
+2022-07-01 19:47:05,784 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704825784 http-nio-2726-exec-9 sendfile to http://7ba968137573:2614/slave/updateDataResponse Code : HttpResponseProxy{HTTP/1.1 200  [Content-Type: text/plain;charset=ISO-8859-1, Content-Length: 20, Date: Fri, 01 Jul 2022 19:47:05 GMT, Keep-Alive: timeout=60, Connection: keep-alive] ResponseEntityProxy{[Content-Type: text/plain;charset=ISO-8859-1,Content-Length: 20,Chunked: false]}}
+2022-07-01 19:47:05,794 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704825794 http-nio-2726-exec-9 propagate sending to http://e7fa4aeba2ce:2615/slave/updateData
+2022-07-01 19:47:10,122 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704830122 http-nio-2726-exec-9 sendfile to http://e7fa4aeba2ce:2615/slave/updateDataResponse Code : HttpResponseProxy{HTTP/1.1 200  [Content-Type: text/plain;charset=ISO-8859-1, Content-Length: 20, Date: Fri, 01 Jul 2022 19:47:10 GMT, Keep-Alive: timeout=60, Connection: keep-alive] ResponseEntityProxy{[Content-Type: text/plain;charset=ISO-8859-1,Content-Length: 20,Chunked: false]}}
+2022-07-01 19:47:10,126 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704830126 http-nio-2726-exec-9 propagate sending to http://408b25073bdc:2616/slave/updateData
+2022-07-01 19:47:15,151 ERROR master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704835151 http-nio-2726-exec-9 408b25073bdc: Try again
+2022-07-01 19:47:15,153 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704835153 http-nio-2726-exec-9 propagate sending to http://aef8356d091f:2617/slave/updateData
+2022-07-01 19:47:20,170 ERROR master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704840170 http-nio-2726-exec-9 aef8356d091f: Try again
+2022-07-01 19:47:20,188 ERROR master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704840188 http-nio-2726-exec-9 Connect to localhost:2616 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+2022-07-01 19:47:20,195 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704840195 http-nio-2726-exec-9 flushed index of hr_db/hrfor slave 2616
+2022-07-01 19:47:20,210 ERROR master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704840209 http-nio-2726-exec-9 Connect to localhost:2617 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+2022-07-01 19:47:20,215 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704840215 http-nio-2726-exec-9 flushed index of hr_db/hrfor slave 2617
+2022-07-01 19:47:20,236 ERROR master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704840235 http-nio-2726-exec-9 Connect to localhost:2614 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+2022-07-01 19:47:20,242 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704840242 http-nio-2726-exec-9 flushed index of hr_db/hrfor slave 2614
+2022-07-01 19:47:20,264 ERROR master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704840264 http-nio-2726-exec-9 Connect to localhost:2615 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+2022-07-01 19:47:20,266 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704840266 http-nio-2726-exec-9 flushed index of hr_db/hrfor slave 2615
+2022-07-01 19:47:20,295 ERROR master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704840295 http-nio-2726-exec-9 Connect to localhost:2613 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+2022-07-01 19:47:20,301 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-9] 1656704840301 http-nio-2726-exec-9 flushed index of hr_db/hrfor slave 2613
+2022-07-01 19:48:04,331 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704884331 http-nio-2726-exec-10 File hr.json already exists
+2022-07-01 19:48:04,352 WARN master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704884352 http-nio-2726-exec-10 File sequencing.json already exists
+2022-07-01 19:48:04,420 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704884420 http-nio-2726-exec-10 Document inserted !
+2022-07-01 19:48:04,427 WARN master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704884427 http-nio-2726-exec-10 File sequencing.json already exists
+2022-07-01 19:48:04,449 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704884449 http-nio-2726-exec-10 Sequencing updated !
+2022-07-01 19:48:06,268 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704886268 http-nio-2726-exec-10 propagate sending to http://408b25073bdc:2616/slave/updateData
+2022-07-01 19:48:11,316 ERROR master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704891316 http-nio-2726-exec-10 408b25073bdc: Try again
+2022-07-01 19:48:11,319 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704891319 http-nio-2726-exec-10 propagate sending to http://2e54f8e946dc:2613/slave/updateData
+2022-07-01 19:48:12,443 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704892443 http-nio-2726-exec-10 sendfile to http://2e54f8e946dc:2613/slave/updateDataResponse Code : HttpResponseProxy{HTTP/1.1 200  [Content-Type: text/plain;charset=ISO-8859-1, Content-Length: 20, Date: Fri, 01 Jul 2022 19:48:12 GMT, Keep-Alive: timeout=60, Connection: keep-alive] ResponseEntityProxy{[Content-Type: text/plain;charset=ISO-8859-1,Content-Length: 20,Chunked: false]}}
+2022-07-01 19:48:12,446 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704892446 http-nio-2726-exec-10 propagate sending to http://aef8356d091f:2617/slave/updateData
+2022-07-01 19:48:17,466 ERROR master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704897466 http-nio-2726-exec-10 aef8356d091f: Try again
+2022-07-01 19:48:17,529 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704897529 http-nio-2726-exec-10 propagate sending to http://7ba968137573:2614/slave/updateData
+2022-07-01 19:48:19,655 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704899655 http-nio-2726-exec-10 sendfile to http://7ba968137573:2614/slave/updateDataResponse Code : HttpResponseProxy{HTTP/1.1 200  [Content-Type: text/plain;charset=ISO-8859-1, Content-Length: 20, Date: Fri, 01 Jul 2022 19:48:19 GMT, Keep-Alive: timeout=60, Connection: keep-alive] ResponseEntityProxy{[Content-Type: text/plain;charset=ISO-8859-1,Content-Length: 20,Chunked: false]}}
+2022-07-01 19:48:19,662 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704899662 http-nio-2726-exec-10 propagate sending to http://e7fa4aeba2ce:2615/slave/updateData
+2022-07-01 19:48:23,051 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704903051 http-nio-2726-exec-10 sendfile to http://e7fa4aeba2ce:2615/slave/updateDataResponse Code : HttpResponseProxy{HTTP/1.1 200  [Content-Type: text/plain;charset=ISO-8859-1, Content-Length: 20, Date: Fri, 01 Jul 2022 19:48:23 GMT, Keep-Alive: timeout=60, Connection: keep-alive] ResponseEntityProxy{[Content-Type: text/plain;charset=ISO-8859-1,Content-Length: 20,Chunked: false]}}
+2022-07-01 19:48:23,062 ERROR master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704903062 http-nio-2726-exec-10 Connect to localhost:2616 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+2022-07-01 19:48:23,072 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704903072 http-nio-2726-exec-10 flushed index of hr_db/hrfor slave 2616
+2022-07-01 19:48:23,098 ERROR master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704903098 http-nio-2726-exec-10 Connect to localhost:2613 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+2022-07-01 19:48:23,102 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704903102 http-nio-2726-exec-10 flushed index of hr_db/hrfor slave 2613
+2022-07-01 19:48:23,117 ERROR master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704903117 http-nio-2726-exec-10 Connect to localhost:2617 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+2022-07-01 19:48:23,119 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704903119 http-nio-2726-exec-10 flushed index of hr_db/hrfor slave 2617
+2022-07-01 19:48:23,127 ERROR master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704903127 http-nio-2726-exec-10 Connect to localhost:2614 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+2022-07-01 19:48:23,129 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704903129 http-nio-2726-exec-10 flushed index of hr_db/hrfor slave 2614
+2022-07-01 19:48:23,154 ERROR master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704903154 http-nio-2726-exec-10 Connect to localhost:2615 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+2022-07-01 19:48:23,156 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-10] 1656704903156 http-nio-2726-exec-10 flushed index of hr_db/hrfor slave 2615
+2022-07-01 19:49:44,739 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-2726-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://slave/slave/hr_db/hr/document": 408b25073bdc; nested exception is java.net.UnknownHostException: 408b25073bdc] with root cause
+java.net.UnknownHostException: 408b25073bdc
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:109)
+	at org.springframework.cloud.client.loadbalancer.BlockingLoadBalancerRequest.apply(BlockingLoadBalancerRequest.java:55)
+	at org.springframework.cloud.client.loadbalancer.BlockingLoadBalancerRequest.apply(BlockingLoadBalancerRequest.java:32)
+	at org.springframework.cloud.client.loadbalancer.LoadBalancerRequestAdapter.apply(LoadBalancerRequestAdapter.java:43)
+	at org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient.execute(BlockingLoadBalancerClient.java:114)
+	at org.springframework.cloud.client.loadbalancer.RetryLoadBalancerInterceptor.lambda$intercept$2(RetryLoadBalancerInterceptor.java:141)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:329)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:225)
+	at org.springframework.cloud.client.loadbalancer.RetryLoadBalancerInterceptor.intercept(RetryLoadBalancerInterceptor.java:91)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:93)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:77)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:361)
+	at master.control.ReadController.getDocument(ReadController.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-07-01 19:50:12,097 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-2] 1656705012097 http-nio-2726-exec-2 getIndex hr_db hr id {property:'id', database:'hr_db', collection:'hr', index:{"1":[{"name":"issam","id":1,"age":23}],"2":[{"name":"issam","id":2,"age":23}]}}
+2022-07-01 19:50:22,871 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 19:51:20,625 INFO master.sharedpackages.logging.LoggingService [http-nio-2726-exec-6] 1656705080625 http-nio-2726-exec-6 getIndex hr_db hr name {property:'name', database:'hr_db', collection:'hr', index:{"issam":[{"name":"issam","id":1,"age":23},{"name":"issam","id":2,"age":23}]}}
+2022-07-01 19:55:22,873 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 20:00:22,876 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 20:04:06,871 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application MASTER with eureka with status DOWN
+2022-07-01 20:04:06,876 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1656705846876, current=DOWN, previous=UP]
+2022-07-01 20:04:06,880 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MASTER/9406edc00f68:master:2726: registering service...
+2022-07-01 20:04:06,988 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MASTER/9406edc00f68:master:2726 - registration status: 204
+2022-07-01 20:04:07,161 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-07-01 20:04:10,171 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-07-01 20:04:10,194 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_MASTER/9406edc00f68:master:2726 - deregister  status: 200
+2022-07-01 20:04:10,231 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient

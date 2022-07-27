@@ -1,0 +1,77 @@
+version: '3'
+services:
+  eureka-server:
+    container_name: eureka-server
+    build: ./eureka-server
+    ports:
+      - "8761:8761"
+    restart: unless-stopped
+    networks:
+      - group1
+
+  master:
+    container_name: master
+    build: ./master
+    ports:
+      - "2726:2726"
+    volumes:
+      - ./master:/usr/src/myapp/master
+    working_dir: /usr/src/myapp/master
+    restart: unless-stopped
+    depends_on:
+      - eureka-server
+    networks:
+      - group1
+
+  slave1:
+    container_name: slave1
+    build: ./slave
+    ports:
+      - "2613:2613"
+    volumes:
+      - ./slave:/usr/src/myapp/slave
+    working_dir: /usr/src/myapp/slave
+    restart: unless-stopped
+    depends_on:
+      - eureka-server
+      - master
+    networks:
+      - group1
+
+  slave2:
+    container_name: slave2
+    build: ./slave
+    ports:
+      - "2614:2614"
+    volumes:
+      - ./slave:/usr/src/myapp/slave
+    working_dir: /usr/src/myapp/slave
+    restart: unless-stopped
+    depends_on:
+      - eureka-server
+      - master
+    entrypoint: [ "java","-jar","target/slave-0.0.1-SNAPSHOT.jar","--server.port=2614" ]
+    networks:
+      - group1
+
+  slave3:
+    container_name: slave3
+    build: ./slave
+    ports:
+      - "2615:2615"
+    volumes:
+      - ./slave:/usr/src/myapp/slave
+    working_dir: /usr/src/myapp/slave
+    restart: unless-stopped
+    depends_on:
+      - eureka-server
+      - master
+    entrypoint: [ "java","-jar","target/slave-0.0.1-SNAPSHOT.jar","--server.port=2615" ]
+    networks:
+      - group1
+
+
+#add all of them to the same network
+networks:
+  group1:
+  group2:

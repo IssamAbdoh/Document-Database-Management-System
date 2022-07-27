@@ -1,0 +1,65 @@
+2022-07-01 07:57:41,668 INFO org.springframework.boot.StartupInfoLogger [main] Starting SlaveApplication v0.0.1-SNAPSHOT using Java 1.8.0_212 on d73975e2d378 with PID 1 (/usr/src/myapp/slave/target/slave-0.0.1-SNAPSHOT.jar started by root in /usr/src/myapp/slave)
+2022-07-01 07:57:41,907 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-01 07:58:02,783 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=84bac28b-ee13-3dee-b622-990bbbb741f5
+2022-07-01 07:58:08,487 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 2615 (http)
+2022-07-01 07:58:08,630 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-2615"]
+2022-07-01 07:58:08,636 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-07-01 07:58:08,640 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-07-01 07:58:09,683 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-07-01 07:58:09,690 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 25952 ms
+2022-07-01 07:58:35,179 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-07-01 07:58:36,937 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-07-01 07:58:38,323 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-07-01 07:58:40,400 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-07-01 07:58:40,630 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-07-01 07:58:41,251 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-07-01 07:58:41,267 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-07-01 07:58:41,272 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-07-01 07:58:41,281 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-07-01 07:58:41,285 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-07-01 07:58:41,287 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-07-01 07:58:41,299 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-07-01 07:58:49,016 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-07-01 07:58:49,074 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-07-01 07:58:49,149 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-01 07:58:49,284 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1656662329279 with initial instances count: 0
+2022-07-01 07:58:49,304 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application SLAVE with eureka with status UP
+2022-07-01 07:58:49,325 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1656662329325, current=UP, previous=STARTING]
+2022-07-01 07:58:49,353 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-2615"]
+2022-07-01 07:58:49,390 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_SLAVE/d73975e2d378:slave:2615: registering service...
+2022-07-01 07:58:49,767 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 2615 (http) with context path ''
+2022-07-01 07:58:49,803 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 2615
+2022-07-01 07:58:50,811 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_SLAVE/d73975e2d378:slave:2615 - registration status: 204
+2022-07-01 07:58:51,632 INFO org.springframework.boot.StartupInfoLogger [main] Started SlaveApplication in 85.11 seconds (JVM running for 97.438)
+2022-07-01 07:59:19,076 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2022-07-01 07:59:19,077 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2022-07-01 07:59:19,078 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2022-07-01 07:59:19,079 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2022-07-01 07:59:19,081 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2022-07-01 07:59:19,082 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2022-07-01 07:59:19,083 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2022-07-01 07:59:19,134 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2022-07-01 08:03:41,339 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:04:47,915 INFO org.apache.juli.logging.DirectJDKLog [http-nio-2615-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-01 08:04:47,916 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2615-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-01 08:04:47,919 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2615-exec-1] Completed initialization in 2 ms
+2022-07-01 08:08:41,342 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:13:41,346 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:18:41,349 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:23:41,351 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:28:41,354 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:33:41,360 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:38:41,362 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:43:41,366 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:48:41,368 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:53:41,371 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 08:58:41,374 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 09:03:41,376 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-01 09:05:13,539 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application SLAVE with eureka with status DOWN
+2022-07-01 09:05:13,555 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1656666313555, current=DOWN, previous=UP]
+2022-07-01 09:05:13,557 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_SLAVE/d73975e2d378:slave:2615: registering service...
+2022-07-01 09:05:13,615 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_SLAVE/d73975e2d378:slave:2615 - registration status: 204
+2022-07-01 09:05:13,708 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-07-01 09:05:16,718 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-07-01 09:05:16,772 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_SLAVE/d73975e2d378:slave:2615 - deregister  status: 200
+2022-07-01 09:05:16,841 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: master
+
+server:
+  port: 2726
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://host.docker.internal:8761/eureka/
+      #defaultZone: http://localhost:8761/eureka/
+    #        defaultZone: http://localhost:1234/eureka/
+    fetch-registry: true
+    register-with-eureka: true
